@@ -7,10 +7,10 @@ redirect_from:
   - /resume
 ---
 
+Coming soon...
+<!--
 {% include base_path %}
 
-Comming soon...
-<!--
 Education
 ======
 * Ph.D in Version Control Theory, GitHub University, 2018 (expected)
