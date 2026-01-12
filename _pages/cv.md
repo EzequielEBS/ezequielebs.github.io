@@ -8,9 +8,9 @@ redirect_from:
 ---
 
 Coming soon...
-<!--
+
 {% include base_path %}
--->
+
 
 <!--Education
 ======
