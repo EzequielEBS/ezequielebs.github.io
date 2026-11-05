@@ -16,7 +16,6 @@ My research is in Bayesian statistics, with a focus on how to borrow information
 Theory and computation for the normalised power prior (NPP) when several historical datasets are available, including sequential (NPP-SEQ) formulations, conjugate results and efficient Stan implementations.
 
 [<i class="fab fa-github"></i> Code](https://github.com/EzequielEBS/onpp-analysis){: .btn .btn--small .btn--inverse}
-[<i class="fas fa-file-lines"></i> CNMAC paper](https://proceedings.sbmac.org.br/sbmac/article/view/5190){: .btn .btn--small .btn--inverse}
 </div>
 
 <div class="project-card" markdown="1">
