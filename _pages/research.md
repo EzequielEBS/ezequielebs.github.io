@@ -10,7 +10,7 @@ My research is in Bayesian statistics, with a focus on how to borrow information
 <div class="project-grid" markdown="1">
 
 <div class="project-card" markdown="1">
-### Normalised power priors for multiple historical datasets
+### Bayesian borrowing from multiple historical datasets via the power prior
 <span class="project-tag">Bayesian methodology</span>
 
 Theory and computation for the normalised power prior (NPP) when several historical datasets are available, including sequential (NPP-SEQ) formulations, conjugate results and efficient Stan implementations.
@@ -37,6 +37,7 @@ A hands-on tutorial on dynamic borrowing priors (NPP, hierarchical models, comme
 Probabilistic forecasts of dengue and chikungunya cases across Brazilian states for the Mosqlimate platform and the IMDC dengue forecasting sprint: SARIMAX models with climate covariates (ENSO, IOD, PDO), fold-aware PCA and model selection by the weighted interval score.
 
 [<i class="fas fa-globe"></i> Mosqlimate](https://mosqlimate.org){: .btn .btn--small .btn--inverse}
+[<i class="fab fa-github"></i> Code](https://github.com/EzequielEBS/3rd_imdc_emap_epidematicos){: .btn .btn--small .btn--inverse}
 </div>
 
 <div class="project-card" markdown="1">
@@ -45,7 +46,7 @@ Probabilistic forecasts of dengue and chikungunya cases across Brazilian states 
 
 Match and tournament probabilities for the 2026 FIFA World Cup using a Dixon–Coles model, Monte Carlo simulation, and optimal score picks for betting-pool scoring rules.
 
-[<i class="fas fa-futbol"></i> Project page](https://brazilianfootball.github.io/WorldCup2026/){: .btn .btn--small .btn--inverse}
+[<i class="fas fa-futbol"></i> Project page](https://copa-com-dados.github.io/copa-com-dados/){: .btn .btn--small .btn--inverse}
 </div>
 
 </div>

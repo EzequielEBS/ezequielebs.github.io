@@ -1,5 +1,5 @@
 ---
-title: "Normalised power prior for multiple historical datasets"
+title: "Bayesian borrowing of historical information from multiple historical datasets via the power prior"
 collection: publications
 category: inprep
 permalink: /publication/npp-multiple-historical
@@ -9,7 +9,7 @@ venue: 'Manuscript in preparation'
 # TODO: confirm the author order before publishing
 authors: '<strong>Ezequiel Braga Santos</strong>, Yure Oliveira, Joseph G. Ibrahim, Luiz Max Carvalho'
 codeurl: 'https://github.com/EzequielEBS/onpp-analysis'
-citation: '<strong>Santos, E. B.</strong>, Oliveira, Y., Ibrahim, J. G., & Carvalho, L. M. Normalised power prior for multiple historical datasets. <i>In preparation</i>.'
+citation: '<strong>Santos, E. B.</strong>, Oliveira, Y., Ibrahim, J. G., & Carvalho, L. M. Bayesian borrowing of historical information from multiple historical datasets via the power prior. <i>In preparation</i>.'
 ---
 
 Work on the theory and implementation of the normalised power prior when several historical datasets are available, comparing joint and sequential (NPP-SEQ) formulations.
