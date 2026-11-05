@@ -19,6 +19,15 @@ Theory and computation for the normalised power prior (NPP) when several histori
 </div>
 
 <div class="project-card" markdown="1">
+### Principled Bayesian dynamic borrowing via information matching
+<span class="project-tag">Bayesian methodology</span>
+
+A principled way to choose how much information to borrow from historical data, by matching the information the historical prior contributes. Manuscript in preparation with Y. Oliveira, J. G. Ibrahim and L. M. Carvalho.
+
+[<i class="fab fa-github"></i> Code](https://github.com/EzequielEBS/pp_predictive){: .btn .btn--small .btn--inverse}
+</div>
+
+<div class="project-card" markdown="1">
 ### Bayesian dynamic borrowing & hdbayes
 <span class="project-tag">Software · Tutorial</span>
 
