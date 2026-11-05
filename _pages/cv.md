@@ -7,62 +7,50 @@ redirect_from:
   - /resume
 ---
 
-Coming soon...
-
 {% include base_path %}
 
+<!-- To offer a PDF version, put it at files/cv.pdf and uncomment the next line -->
+<!-- [Download PDF version]({{ base_path }}/files/cv.pdf){: .btn .btn--inverse} -->
 
-<!--Education
+Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+<!-- TODO: add years, e.g. "2025 – present" and "2020 – 2024" -->
+* **M.Sc. in Applied Mathematics and Data Science** (in progress)  
+  School of Applied Mathematics, Getulio Vargas Foundation (FGV EMAp), Rio de Janeiro
+  * Research: normalised power priors and Bayesian dynamic borrowing
+  * Advisor: Luiz Max Carvalho <!-- TODO: confirm -->
+* **B.Sc. in Applied Mathematics**  
+  School of Applied Mathematics, Getulio Vargas Foundation (FGV EMAp), Rio de Janeiro
+  * Full scholarship from the Center for the Development of Mathematics and Sciences (CDMC)
 
-Work experience
+Research experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
-
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* **Research Assistant, hdbayes project**  
+  Bayesian analysis of generalized linear models using historical data (R package [hdbayes](https://journal.r-project.org/articles/RJ-2026-010/)), in collaboration with the University of North Carolina at Chapel Hill
+* **Research Assistant, Mosqlimate project**  
+  Probabilistic forecasting of dengue and chikungunya across Brazilian states; submissions to the IMDC dengue forecasting sprint
+* **Undergraduate research scholarships**: Scientific and Master's Initiation Program (PICME) and Institutional Program for Scientific Initiation Scholarships (PIBIC)
 
 Publications
 ======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
+<ul>{% for post in site.publications reversed %}
+  {% include archive-single-cv.html %}
+{% endfor %}</ul>
+
 Teaching
 ======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
+Teaching assistant at FGV EMAp:
+<ul>{% for post in site.teaching reversed %}
+  <li>{{ post.title | remove: " (TA)" }}, {{ post.type | downcase }}, {{ post.date | date: "%Y" }}</li>
+{% endfor %}</ul>
+
+Honors and awards
 ======
-* Currently signed in to 43 different slack teams
--->
+* Three-time medalist, Brazilian Public School Mathematics Olympiad (OBMEP)
+* CDMC undergraduate scholarship, FGV EMAp
+
+Skills
+======
+* **Programming:** R, Python, Stan, LaTeX, Git, command-line tools
+* **Methods:** Bayesian inference and computation, power priors, generalized linear models, survival analysis, time-series forecasting (SARIMAX), spatio-temporal models (INLA)
+* **Languages:** Portuguese (native), English

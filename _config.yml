@@ -12,7 +12,7 @@ site_theme               : "default" # The available themes options are "default
 title                    : "Ezequiel Braga"
 title_separator          : "-"
 name                     : &name "Ezequiel de Braga Santos"
-description              : &description "MSc student in Applied Mathematics and Data Science at School of Applied Mathematics - Getulio Vargas Foundation (FGV EMAp)"   # Update this with a general description of your site, this is the default if not overridden by a page
+description              : &description "Ezequiel Braga - M.Sc. student in Applied Mathematics and Data Science at FGV EMAp working on Bayesian statistics and epidemiological forecasting"   # Update this with a general description of your site, this is the default if not overridden by a page
 url                      : https://ezequielebs.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -26,19 +26,19 @@ author:
   avatar           : "profile.png"
   name             : "Ezequiel Braga"
   pronouns         : # example: "she/her"  
-  bio              : "MSc student in Applied Mathematics and Data Science at School of Applied Mathematics - Getulio Vargas Foundation (FGV EMAp)"
+  bio              : "M.Sc. student in Applied Mathematics & Data Science. Bayesian statistics, power priors and epidemiological forecasting."
   location         : "Rio de Janeiro - RJ, Brazil"
-  employer         : 
+  employer         : "FGV EMAp"
   uri              : # URL
   email            : "ezequiel.braga.santos@gmail.com" 
 
   # Academic websites
   academia         : # URL
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : 
+  googlescholar    : # URL, e.g. "https://scholar.google.com/citations?user=XXXX"
   inspire-hep      : # URL
   impactstory      : # URL
-  orcid            : 
+  orcid            : # URL, e.g. "https://orcid.org/0000-0000-0000-0000"
   semantic         : # URL
   ssrn             : # URL
   pubmed           : 
@@ -66,7 +66,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : # Username
+  linkedin         : # Username (the part after linkedin.com/in/)
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
@@ -84,12 +84,14 @@ author:
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
-  books:
-    title: 'Books'
   manuscripts:
-    title: 'Journal Articles'    
+    title: 'Journal Articles'
+  preprints:
+    title: 'Preprints'
   conferences:
-    title: 'Conference Papers'
+    title: 'Conference Proceedings'
+  inprep:
+    title: 'Work in Progress'
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews
